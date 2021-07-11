@@ -1,0 +1,40 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background: #f5f5f5;
+}
+.container {
+    padding: 0px;
+    background: #f5f5f5;
+    box-shadow: 20px 20px 35px #d0d0d0,
+        -20px -20px 35 #ffffff;
+}
+
+.navbar {
+    padding: 5px 10px;
+    filter: drop-shadow(0 0 1px black);
+}
+
+#header {
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(0 0 1px black);
+}
+
+.img_div {
+    margin: 20px 0px;
+    display: grid;
+    grid-template-columns: 1fr 550px 1fr;
+    grid-template-rows: 470px;
+    place-items: center;
+}
+
+.solo_pic {
+    width: 370px;
+    filter: drop-shadow(0 0 5px black);
+    border-radius: 8px;
+}
