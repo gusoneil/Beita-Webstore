@@ -14,7 +14,7 @@ body {
 
 .navbar {
     padding: 5px 10px;
-    filter: drop-shadow(0 0 1px black);
+    filter: drop-shadow(0 0 1.2px black);
 }
 
 #header {
@@ -22,19 +22,19 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    filter: drop-shadow(0 0 1px black);
+    filter: drop-shadow(0 0 1.2px black);
 }
 
 .img_div {
     margin: 20px 0px;
     display: grid;
-    grid-template-columns: 1fr 550px 1fr;
-    grid-template-rows: 470px;
+    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
     place-items: center;
+    gap: 20px 20px;
 }
 
 .solo_pic {
     width: 370px;
-    filter: drop-shadow(0 0 5px black);
+    filter: drop-shadow(5px 5px 5px black);
     border-radius: 8px;
 }
